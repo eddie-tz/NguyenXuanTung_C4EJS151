@@ -1,0 +1,33 @@
+
+h1{
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-1{
+    color: brown;
+}
+
+.underline{
+    color: blueviolet;
+}
+
+#hover:hover{
+    background-color: yellow;
+    cursor: pointer;
+    color: #0066FF;
+    padding-left: 20px;
+}
+
+
+
+/* Tag, Class, ID 
+    Tag: Goi-ten-the
+    Class: .ten-class
+    ID: #ten-id
+*/

@@ -1,0 +1,115 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 45px;
+    margin: -1px;
+}
+
+.box1{
+    width: 100%;
+    height: 470px;
+    background-color: #eee;
+    padding-top: 80px;
+    padding-left: 50px;
+}
+
+.p-style{
+    color: #363031;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.box1-img1{
+    position: absolute;
+    top: 50px;
+    right: 150px;
+    width: 300px;
+    border-radius: 100%;
+}
+
+.box1-img2{
+    position: absolute;
+    top: 210px;
+    right: 70px;
+    width: 200px;
+    border-radius: 100%;
+    border: 8px solid #eee;
+
+}
+
+.button{
+    width: 170px;
+    height: 55px;
+    background-color: #A36A4F;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.button-explore{
+    padding: 15px 55px;
+    color: #fff;
+    font-size: 19px;
+}
+
+.box1-boxcenter{
+    width: 870px;
+    height: 180px;
+    background-color: #ECDAC4;
+    border-radius: 100px;
+    position: relative;
+    bottom: -45px;
+}
+
+.box1-boxcenter-content{
+    width: 250px;
+    height: 130px;
+    display: inline-block ;
+    text-align: center;
+    margin-left: 30px;
+
+}
+
+.box1-boxcenter-content-icon{
+    padding-top: 25px;
+    /* padding-left: 100px; */
+}
+
+.box1-boxcenter-content-h2{
+    position: relative;
+    top: -15px;
+    font-size: 30px;
+    margin: 18px;
+}
+
+.box1-boxcenter-content-p{
+    position: relative;
+    top: -25px;    
+}
+
+.box2{
+    width: 100%;
+    height: 500px;
+    background-color: #333;
+}
+
+.box2-content{
+    width: 175px;
+    padding-top: 140px;
+    padding-left: 50px;
+    display: inline-block ;
+}
+
+.box2-content-img{
+    width: 175px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+}
+
+.box2-content-text{
+    padding-top: 15px;
+    text-align: center;
+    color: #fff;
+}
