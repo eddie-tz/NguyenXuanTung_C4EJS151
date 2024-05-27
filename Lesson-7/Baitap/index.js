@@ -70,5 +70,3 @@ console.log(soThu1 > soThu2 > soThu3);
 
 // BAO TAP 7
 console.log('Câu 7');
-
-let
