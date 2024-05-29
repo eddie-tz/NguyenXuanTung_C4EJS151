@@ -68,5 +68,40 @@ let soThu3 = 12;
 console.log('Cho 3 số để so sánh: ' + soThu1 + ';' + soThu2 + ';' + soThu3);
 console.log(soThu1 > soThu2 > soThu3); 
 
-// BAO TAP 7
+// BAI TAP 7
 console.log('Câu 7');
+
+let giaTri1 = 5;
+let giaTri2 = 5;
+
+console.log(giaTri1 == giaTri2)
+
+// BAI TAP 8
+console.log('Câu 8')
+
+const number = parseFloat(prompt("Nhập để kiểm tra số dương:"));
+const isPositive = number > 0;
+console.log(number + " " + isPositive);
+
+//BAI TAP 9
+console.log('Câu 9')
+
+const year = parseInt(prompt("Nhập số năm để biết năm nhuận hay không:"));
+const isLeapYear = (year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0);
+console.log(year + " " + isLeapYear);
+
+//BAI TAP 10
+console.log('Câu10')
+
+const hour1 = parseInt(prompt("Nhập giờ thứ 1:"));
+const minute1 = parseInt(prompt("Nhập số phút thứ 1:"));
+
+const hour2 = parseInt(prompt("Nhập giờ thứ 2:"));
+const minute2 = parseInt(prompt("Nhập số phút thứ 2:"));
+
+const time1InMinutes = hour1 * 60 + minute1;
+const time2InMinutes = hour2 * 60 + minute2;
+
+const isFirstTimeEarlier = time1InMinutes < time2InMinutes;
+
+console.log("Thời gian " + hour1 + 'h' + minute1 + " lớn hơn " + hour2 + 'h' + minute2);
