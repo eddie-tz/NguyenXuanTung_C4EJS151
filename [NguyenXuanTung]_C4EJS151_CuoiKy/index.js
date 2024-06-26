@@ -3,7 +3,6 @@ const bets = { "bau": 0, "cua": 0, "tom": 0, "ca": 0, "huou": 0, "ga": 0 };
 let totalBets = 0;
 let spinning = false;
 
-// DOM elements
 const results = [
     document.querySelector('#result1 img'),
     document.querySelector('#result2 img'),
@@ -15,7 +14,6 @@ const spinButton = document.getElementById('spinButton');
 const resetButton = document.getElementById('resetButton');
 const resultMessage = document.getElementById('resultMessage');
 
-// Event listeners for placing bets
 images.forEach((img, index) => {
     img.addEventListener('click', () => {
         if (!spinning && totalBets < 3) {
@@ -29,7 +27,6 @@ images.forEach((img, index) => {
     });
 });
 
-// Event listener for spinning
 spinButton.addEventListener('click', () => {
     if (!spinning) {
         spinning = true;
@@ -63,7 +60,6 @@ spinButton.addEventListener('click', () => {
     }
 });
 
-// Event listener for resetting bets
 resetButton.addEventListener('click', () => {
     if (!spinning) {
         for (let symbol in bets) {
